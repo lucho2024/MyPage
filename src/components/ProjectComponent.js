@@ -13,7 +13,7 @@ import { PROJECTS } from "../shared/projects";
 function RenderProject({ project }) {
   const pro = project.map((proje) => {
     return (
-      <div className="col-12 col-md-4 offset-1" key={proje.id}>
+      <div className="col-12 col-md-4 xl-offset-1" key={proje.id}>
         <Card>
           <CardImg src={proje.image} alt={proje.name} />
           <CardBody>
@@ -21,6 +21,8 @@ function RenderProject({ project }) {
               <CardTitle>{proje.name}</CardTitle>
             </strong>
             <CardText>{proje.description}</CardText>
+            {proje.community ? <CardText>{proje.community}</CardText> : null}
+
             <div className="row">
               <a
                 type="button"

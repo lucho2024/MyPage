@@ -6,6 +6,8 @@ export const PROJECTS = [
       "Digibyte Hispano is the Spanish-speaking community of the digibyte cryptocurrency, the Hispanic community is supported by digibyte and is an educational page where you can learn the most basic things about DGB",
     image: "/assets/images/DGB.png",
     link: "https://www.digibytehispano.org/",
+    community:
+      " I am an active member of the Hispanic dgb community and I maintain the website that was built in wordpress",
   },
   {
     id: 1,

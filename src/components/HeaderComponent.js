@@ -40,7 +40,7 @@ const Header = () => {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" to="/aboutus">
+                <NavLink className="nav-link" to="/skills">
                   <span className="fa fa-tasks fa-lg"></span>
                   Skills
                 </NavLink>
