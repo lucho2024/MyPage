@@ -5,3 +5,8 @@
 .navbar-dark {
   background-color: #abb2b9;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

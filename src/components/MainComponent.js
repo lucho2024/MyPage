@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./HeaderComponent";
+import Header from "./header/HeaderComponent";
 import Home from "./HomeComponent";
 import Project from "./ProjectComponent";
 import Skill from "./SkillComponent";
